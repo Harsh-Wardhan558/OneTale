@@ -1,0 +1,140 @@
+/* About Page Styles */
+
+.About-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .About {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .Text {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Vision & Mission Section */
+  
+  .vision-mission-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .vision-mission-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .vision-card, .mission-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: #f4f4f4;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .vision-card:hover, .mission-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .vision-img, .mission-img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  
+  /* The Team Section */
+  
+  .team-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .team-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .team-image {
+    width: 80px;
+    margin: 20px auto;
+  }
+  
+  .team-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns in a row */
+    gap: 30px;
+    margin-top: 30px;
+    justify-items: center;
+  }
+  
+  .team-card {
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .team-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .linkedin-btn img {
+    width: 24px;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 900px) {
+    .team-cards {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .team-cards {
+      grid-template-columns: repeat(1, 1fr); /* 1 column on small screens */
+    }
+  }
+  
+  /* Footer Styles */
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+  }
+  
+  .footer-socials a img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+  }
+  
+  .footer-socials a img:hover {
+    transform: scale(1.2);
+  }
+  
